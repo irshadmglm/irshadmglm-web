@@ -1,0 +1,159 @@
+.hed{
+    background-color: rgb(0, 116, 193) ;
+    width: 100%;
+    height: 40px;
+}
+.div1, .div2 {
+    float: left;
+width: 50%;
+height: 500px;
+border-bottom: solid 5px rgb(0, 116, 193);
+box-shadow: 40px;
+background-color: #020009;
+
+}
+.photo{
+    width: 50%;
+    border-radius: 1000px;
+    margin: 100px;
+    border: solid 5px;
+    border-color:  rgb(0, 116, 193);
+   
+}
+.photo2{
+    width: 150px;
+    margin-left: 10%;
+    border: solid 2px;
+    border-color:   rgb(0, 116, 193);
+    border-radius: 100px;
+}
+#name{
+    margin-top:  270px;
+    color: #ffffff;
+    font-size:200%;
+}
+
+.navigation{
+    width: 100%;
+    height: 50px;
+    background-color:  rgb(0, 31, 52);
+    float: left;
+}
+.navigation a{
+    color: aliceblue;
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-shadow: 2px #44454b;
+}
+.navigation li{
+    float: left;
+    display: inline;
+   
+    padding-left:  15%;
+}
+.current a{
+    color: #ff0000;
+    font-weight: bold;
+    text-shadow: #000107 5px ;
+}
+.navigation a:hover{
+color: #44454b;
+font-weight: bold;
+}
+.showcase{
+    width: 100%;
+    height: 500px;
+    color: #44454b ;
+    
+    background-image: url('image.html/pain.jpg') height: 500vh;
+    float: left;
+}
+h3{
+    color: #000000;
+}
+.logoo{
+    width: 25px;
+    border-radius: 10px;
+    height:25px ;
+    margin-left: 10%;
+  
+}
+.logoo img{
+    filter: hue-rotate(240deg);
+}
+.paini{
+    width: 100%;
+}
+.card{
+    margin-top: 30px;
+    margin-left: 20%;
+    background-color: #04000b;
+}
+.logoo1{
+    width: 10%;
+    border-radius: 100px;
+   
+    margin-left: 18%;
+  
+}
+.llog img:hover{
+    padding-top:3px;
+    filter: hue-rotate(240deg);
+    border: solid 3px;
+    border-color: rgb(0, 116, 193);
+
+    }
+    
+    .highlight{
+        color: #f10505;
+        background-color: #000107;
+        border-radius: 12px 0px 0px 12px;
+        border: solid 5px #000107;
+    }
+   .detail p, .gallery p{
+color: #000000;
+
+   }
+   .detail h1, .gallery h1{
+color: #01313f;
+   }
+   .detail span{
+    color:  rgb(8, 45, 70);
+    font-weight: bold;
+   }
+   .detail{
+    padding: 10px;
+    background-color: #fbfbf3;
+   }
+   .skiill{
+    padding: 30px;
+    width: 70%;
+   }
+   .skiill p{
+color: #042230;
+   }
+.gallery{
+    background-color: #d3d0cf;
+    float: left;
+    width: 70%;
+    height: auto;
+    padding: 20px;
+}
+.skiill p{
+    font-style: inherit;
+    font-weight: bold;
+}
+.div2 p{
+    color: #d3d0cf;
+}
+footer{
+    color: #d3d0cf;
+    background-color:rgb(0, 116, 193) ;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-left:30% ;
+    padding-top: 15PX;
+}
